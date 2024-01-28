@@ -5,10 +5,13 @@ locations = [(1.233102, -77.292833)]
 
 output = r""
 
+# # only GHI
+# base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=ALLSKY_SFC_SW_DWN&community=RE&longitude={longitude}&latitude={latitude}&start=20230101&end=20231231&format=JSON"
 
 
 #DNI % GHI
-base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DIFF,CLRSKY_KT&community=RE&longitude={longitude}&latitude={latitude}&start=20230101&end=20240101&format=JSON"
+base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DIFF,CLRSKY_KT&community=RE&longitude={longitude}&latitude={latitude}&start=20230101&end=20231101&format=JSON"
+
 # base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=ALLSKY_SFC_SW_DNI,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DIFF,CLRSKY_KT&community=RE&longitude={longitude}&latitude={latitude}&start=20230101&end=20240101&format=JSON"
 
 
