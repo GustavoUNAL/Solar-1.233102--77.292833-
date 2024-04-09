@@ -1,0 +1,22 @@
+{    
+    "id": "7007fa65-251c-4b23-8c60-bf3a5de631a7",
+    "deviceName": "Teodoro Alvarado 1",
+    "devEui": "e65a56cfd08a0000",
+    "equipmentName": "Teodoro Alvarado 1",
+    "gatewayId": "e45f01fffe12c9dd",
+    "zone": "Zona 4",
+    "event": "Tapa cerrada",
+    "status": "Activo",
+    "equipment": {
+      "id": "2820d44e-8a4c-45b8-9479-68d346ae8a54",
+      "devEui": "e65a56cfd08a0000",
+      "deviceName": "TOPO-e65a56cfd08a",
+      "equipmentName": "Teodoro Alvarado 1",
+      "gatewayId": "e45f01fffe12c9dd",
+      "rssi": -43,
+      "address": "Calle 1 entre A y B",
+      "coordinates": "-2.1086373, -79.9046202",
+      "status": 0,
+      "maintenance": false
+    }
+  }
